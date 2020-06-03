@@ -1079,7 +1079,7 @@ class Dacte extends DaCommon
             'size' => 6,
             'style' => '');
         $this->pdf->textBox($x, $y, $w, 4, $texto, $aFont, 'T', 'L', 0, '');
-        $texto = $this->creditos .  "  Powered by NFePHP®";
+        $texto = $this->creditos;
         $aFont = array(
             'font' => $this->fontePadrao,
             'size' => 6,

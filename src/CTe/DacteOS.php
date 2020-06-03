@@ -968,7 +968,7 @@ class DacteOS extends DaCommon
             'style' => '');
         $this->pdf->textBox($x-1, $y+2, $w, 4, $texto, $aFont, 'T', 'L', 0, '');
 
-        $texto = $this->creditos .  "  Powered by NFePHP®";
+        $texto = $this->creditos;
         $this->pdf->textBox($x, $y, $w, 0, $texto, $aFont, 'T', 'R', false, '');
     }
 
